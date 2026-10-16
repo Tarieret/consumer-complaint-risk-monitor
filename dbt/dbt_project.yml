@@ -1,0 +1,16 @@
+name: 'complaint_risk'
+version: '1.0.0'
+config-version: 2
+
+profile: 'complaint_risk'
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+
+models:
+  complaint_risk:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+requests
+python-dotenv
+dbt-databricks
+databricks-sdk
+pytest
+ipykernel
